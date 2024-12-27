@@ -20,8 +20,27 @@
         <nav class="navbar">
           <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">DEPARTMENT</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li>
+              <div class="dropdown">
+                <div class="dropbtn">
+                  DEPARTMENTS
+                  <!-- <span><img src="../assets/icons/down.png" alt="" /></span> -->
+                </div>
+                <div class="dropdown-content">
+                  <a href="./Department/software.html">Software Engineering</a>
+                  <a href="./Department/Electrical.html"
+                    >Electrical Engineering</a
+                  >
+                  <a href="./Department/Civil.html">Civil Engineering</a>
+                  <a href="./Department/Mining.html">Mining Engineering</a>
+                  <a href="./Department/Water.html">Water Engineering</a>
+                  <a href="./Department/Com_scen.html">Computer Science</a>
+                  <a href="./Department/IN_TECH.HTML">Information Technology</a>
+                  <a href="./Department/IN_SY.html">Information System</a>
+                </div>
+              </div>
+            </li>
             <li><a href="#contact">CONTACT US</a></li>
           </ul>
         </nav>
@@ -29,7 +48,11 @@
       </div>
     </header>
     <section>
-      <div class="banner"></div>
+      <div class="banner">
+        <marquee behavior="scroll" direction="" class="marq">
+          <h1>WELLCOME TO COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+        </marquee>
+      </div>
 
       <div class="discription_image_and_h1">
         <div>
@@ -181,46 +204,63 @@
         </div>
       </div>
 
-      <div class="contact" id='contact'>
-          
-      <div class="contact_title">
-        <h1>CONTACT US</h1>
-      </div>
-      <div class="contact_section">
-        <div class="contact_left">
-            <h1>Let's talk</h1>
-            <p>if you have any person to get the college dean you can use the following social media</p>
-            <div class="contact_details">
-                <div class="contact_detail">
-                   <img src="../assets/icons/mailicon.png" alt="" /><p>demeale25@gmail.com</p>
-                </div>
-                <div class="contact_detail">
-                   <img src="../assets/icons/callicon.png" alt="" /><p>+251 918569686</p>
-                </div>
-                <div class="contact_detail">
-                    <img src="../assets/icons/locationicon.png" alt="" /><p>INJIBARA,Ethiopia</p>
-                </div>
-                
-            </div>
+      <div class="contact" id="contact">
+        <div class="contact_title">
+          <h1>CONTACT US</h1>
         </div>
-       
-       <form class='contact-right'>
-        <label htmlFor="">Your Name</label>
-        <input type="text" name="name" id="" placeholder='Enter your name'/>
-        <label htmlFor="">Your Email</label>
-        <input type="Email" name="Email" id="" placeholder='Enter your Email'/>
-        <label htmlFor="">Write your message here</label>
-        <textarea name="message" placeholder='Enter your message'></textarea>
-        <button type='submit' class="contact-submit">Submit Now</button>
-       </form>
-    </div>
+        <div class="contact_section">
+          <div class="contact_left">
+            <h1>Let's talk</h1>
+            <p>
+              if you have any person to get the college dean you can use the
+              following social media
+            </p>
+            <div class="contact_details">
+              <div class="contact_detail">
+                <img src="../assets/icons/mailicon.png" alt="" />
+                <p>demeale25@gmail.com</p>
+              </div>
+              <div class="contact_detail">
+                <img src="../assets/icons/callicon.png" alt="" />
+                <p>+251 918569686</p>
+              </div>
+              <div class="contact_detail">
+                <img src="../assets/icons/locationicon.png" alt="" />
+                <p>INJIBARA,Ethiopia</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-right">
+            <label htmlFor="">Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id=""
+              placeholder="Enter your name"
+            />
+            <label htmlFor="">Your Email</label>
+            <input
+              type="Email"
+              name="Email"
+              id=""
+              placeholder="Enter your Email"
+            />
+            <label htmlFor="">Write your message here</label>
+            <textarea
+              name="message"
+              placeholder="Enter your message"
+            ></textarea>
+            <button type="submit" class="contact-submit">Submit Now</button>
+          </form>
+        </div>
       </div>
     </section>
     <footer>
       <div class="homefooter">
         <small>&copy; copy right is reserved</small>
-      <img src="../assets/icons/INU_LOGO.png" alt="" />
-      <p>place holder</p>
+        <img src="../assets/icons/INU_LOGO.png" alt="" />
+        <p>place holder</p>
       </div>
     </footer>
   </body>
