@@ -28,6 +28,15 @@
     color: white;
     text-decoration: none;
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo h1, h3{
+    color: rosybrown;
+}
 
 /* style of header ending point */
 
@@ -127,3 +136,18 @@ footer{
 }
 
 /* style of discription page ending point */
+
+.banner{
+  position: relative;
+}
+
+.marq{
+position: absolute;
+bottom: 250px;
+right: 0px;
+}
+.marq h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
